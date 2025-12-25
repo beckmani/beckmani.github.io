@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Cloud & Infrastructure",
+    "skills": ["AWS", "Azure", "GCP", "OpenStack", "Docker", "Kubernetes", "SaaS"]
+  },
+  {
+    "category": "Programming",
+    "skills": ["Python", "Bash", "Go", "TypeScript", "C", "C++"]
+  },
+  {
+    "category": "DevOps & Tools",
+    "skills": ["Terraform", "Ansible", "Jenkins", "GitLab CI", "GitHub Actions", "Helm"]
+  },
+  {
+    "category": "Storage & Databases",
+    "skills": ["S3", "Cinder", "PostgreSQL", "MongoDB", "Redis"]
+  },
+  {
+    "category": "Monitoring & Observability",
+    "skills": ["Prometheus", "Grafana", "ElasticSearch", "OpenSearch"]
+  },
+  {
+    "category": "AI & MLOps",
+    "skills": ["Langchain", "ADK", "Llama", "Datadog"]
+  }
+]

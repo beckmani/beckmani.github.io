@@ -1,0 +1,51 @@
+[
+  {
+    "name": "adk-pdf",
+    "description": "PDF processing and generation toolkit using Google ADK",
+    "tech": ["Python", "Google ADK", "PDF"],
+    "github": "https://github.com/beckmani/adk-pdf",
+    "featured": true
+  },
+  {
+    "name": "mount-s3",
+    "description": "Dockerfile for mounting S3 buckets in containers with FUSE support",
+    "tech": ["Docker", "S3", "FUSE", "AWS"],
+    "github": "https://github.com/beckmani/mount-s3",
+    "featured": true
+  },
+  {
+    "name": "cinder",
+    "description": "OpenStack Block Storage (Cinder) - Contributions to enterprise cloud storage",
+    "tech": ["Python", "OpenStack", "Cloud Storage"],
+    "github": "https://github.com/beckmani/cinder",
+    "featured": true
+  },
+  {
+    "name": "pyxcli",
+    "description": "IBM Python XCLI Client for storage management",
+    "tech": ["Python", "IBM", "Storage"],
+    "github": "https://github.com/beckmani/pyxcli",
+    "featured": false
+  },
+  {
+    "name": "ETL",
+    "description": "Extract, Transform, Load data pipeline toolkit",
+    "tech": ["Python", "ETL", "Data Engineering"],
+    "github": "https://github.com/beckmani/ETL",
+    "featured": true
+  },
+  {
+    "name": "helm-charts",
+    "description": "Kubernetes Helm charts for Elastic Stack",
+    "tech": ["Kubernetes", "Helm", "Python"],
+    "github": "https://github.com/beckmani/helm-charts",
+    "featured": false
+  },
+  {
+    "name": "docker-ansible-playbook",
+    "description": "Docker image for executing Ansible playbooks in containers",
+    "tech": ["Docker", "Ansible", "DevOps"],
+    "github": "https://github.com/beckmani/docker-ansible-playbook",
+    "featured": false
+  }
+]
