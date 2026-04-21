@@ -8,8 +8,10 @@ import ibmLogo from "@/assets/ibm-logo.svg";
 import dellLogo from "@/assets/dell-logo.svg";
 import appliedMaterialsLogo from "@/assets/applied-materials-logo.png";
 import nessLogo from "@/assets/ness-logo.png";
+import bmcLogo from "@/assets/bmc-logo.png";
 
 const companyLogos: Record<string, string> = {
+  BMC: bmcLogo,
   PlainID: plainidLogo,
   Amdocs: amdocsLogo,
   Spacemesh: spacemeshLogo,
