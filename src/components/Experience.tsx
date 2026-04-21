@@ -3,8 +3,10 @@ import { MapPin, Calendar } from "lucide-react";
 import experienceData from "@/data/experience.json";
 import plainidLogo from "@/assets/plainid-logo.png";
 import amdocsLogo from "@/assets/amdocs-logo.png";
-import spacemeshLogo from "@/assets/spacemesh-logo.png";
-import ibmLogo from "@/assets/ibm-logo.svg";
+import spacemeshLogoLight from "@/assets/spacemesh-logo-light.png";
+import spacemeshLogoDark from "@/assets/spacemesh-logo-dark.png";
+import ibmLogoLight from "@/assets/ibm-logo-light.svg";
+import ibmLogoDark from "@/assets/ibm-logo-dark.svg";
 import dellLogo from "@/assets/dell-logo.svg";
 import appliedMaterialsLogo from "@/assets/applied-materials-logo.png";
 import nessLogo from "@/assets/ness-logo.png";
@@ -17,8 +19,8 @@ const companyLogos: Record<string, CompanyLogo> = {
   BMC: { light: bmcLogoLight, dark: bmcLogoDark },
   PlainID: plainidLogo,
   Amdocs: amdocsLogo,
-  Spacemesh: spacemeshLogo,
-  "IBM (XIV)": ibmLogo,
+  Spacemesh: { light: spacemeshLogoLight, dark: spacemeshLogoDark },
+  "IBM (XIV)": { light: ibmLogoLight, dark: ibmLogoDark },
   "DELL (EMC)": dellLogo,
   "Applied Materials": appliedMaterialsLogo,
   Ness: nessLogo,
@@ -79,13 +81,13 @@ export const Experience = () => {
                         <h3 className="text-2xl font-semibold mb-1">{job.role}</h3>
                         <p className="text-xl text-primary mb-2">{job.company}</p>
                       </div>
-                      <div className="flex flex-col gap-2 text-muted text-sm">
+                      <div className="flex flex-col gap-2 text-muted text-sm md:w-56 md:flex-shrink-0">
                         <div className="flex items-center gap-2">
-                          <Calendar className="h-4 w-4" />
+                          <Calendar className="h-4 w-4 flex-shrink-0" />
                           <span>{job.period}</span>
                         </div>
                         <div className="flex items-center gap-2">
-                          <MapPin className="h-4 w-4" />
+                          <MapPin className="h-4 w-4 flex-shrink-0" />
                           <span>{job.location}</span>
                         </div>
                       </div>
